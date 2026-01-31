@@ -1,7 +1,7 @@
 {
-  "version": "0.0.1",
-  "build_code": "bd30f15",
-  "full_version": "v0.0.1-android-dev-bd30f15",
+  "version": "0.0.2",
+  "build_code": "Local",
+  "full_version": "v0.0.2-android-dev-Local",
   "environment": "dev",
   "changelog": "\n### 🌐 Mejoras Globales \n- **Optimización de memoria**: Reducción del consumo RAM en un 15%\n\n### 🔧 Correcciones Técnicas\n- **Fix menor en login**: Corrección de validación de credenciales vacías",
   "release_url": "https://github.com/HoteiApp-testing-2/releases-sunnix/releases/download/v0.0.1-android-dev-bd30f03/sunnix-Android-v0.0.1-dev-bd30f03.apk",

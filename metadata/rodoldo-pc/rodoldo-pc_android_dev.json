@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "build_code": "bd30f15",
+  "full_version": "v0.0.1-android-dev-bd30f15",
+  "environment": "dev",
+  "changelog": "\n### 🌐 Correciones Offline Mejorado\n- ✅ **Detección precisa de desconexión**: Sistema reactivo que identifica fallos de red al intentar conectar con el API\n- ✅ **Bloqueo total de interfaz**: Pantalla de aviso que impide navegar a otras secciones cuando no hay conexión\n- ✅ **Sin acceso a Settings**: Eliminada la posibilidad de acceder a ajustes durante el modo offline\n- ✅ **Pull-to-refresh sincronizado**: Gestos de actualización funcionan igual que en el Diary para intentar reconectar\n- ✅ **Compatibilidad Flutter Web**: Detección mejorada de errores de red específicos de navegadores web\n\n### 🔧 Correcciones Técnicas\n- ✅ **Manejo de errores robusto**: Captura ampliada de excepciones de red (timeout, failed to fetch, connection errors)\n- ✅ **Estado persistente**: Datos previamente cargados permanecen visibles hasta que se fuerza una actualización",
+  "release_url": "https://github.com/HoteiApp-testing-2/releases-sunnix/releases/download/v0.0.1-android-dev-bd30f03/sunnix-Android-v0.0.1-dev-bd30f03.apk",
+  "all_releases_url": "https://github.com/Softnet-Releases/rodolfo-pc",
+  "date": "2026-01-17",
+  "required": false,
+  "min_version": "0.0.1"
+}

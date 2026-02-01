@@ -7,6 +7,6 @@
   "release_url": "https://github.com/HoteiApp-testing-2/releases-sunnix/releases/download/v0.0.1-android-dev-bd30f03/sunnix-Android-v0.0.1-dev-bd30f03.apk",
   "all_releases_url": "https://github.com/Softnet-Releases/rodolfo-pc",
   "date": "2026-01-17",
-  "required": true,
+  "required": false,
   "min_version": "0.0.1"
 }

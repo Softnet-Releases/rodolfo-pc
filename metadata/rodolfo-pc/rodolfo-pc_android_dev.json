@@ -1,10 +1,10 @@
 {
   "version": "0.0.1",
-  "build_code": "6d4bd90",
-  "full_version": "v0.0.1-android-dev-6d4bd90",
+  "build_code": "5c8f92c",
+  "full_version": "v0.0.1-android-dev-5c8f92c",
   "environment": "dev",
   "changelog": "\n### 📱 Características en Prueba\n- Catálogo de productos de computación (versión beta)\n- Búsqueda básica por categorías\n- Vista de precios en CUP (funcionalidad en prueba)\n- Galería de imágenes (funcionalidad limitada)\n- Especificaciones técnicas básicas\n\n### 🛍️ Funcionalidades de Catálogo en Prueba\n- Categorías básicas de productos\n- Filtros simples por precio\n- Vista de producto con información limitada\n- Comparación de productos (en desarrollo)\n- Lista de favoritos (funcionalidad básica)\n\n### 📸 Galería de Productos en Prueba\n- Visualización básica de imágenes\n- Navegación simple entre imágenes\n- Zoom básico (funcionalidad limitada)\n- Carga de imágenes en desarrollo\n- Vista de galería reducida\n\n### 🔍 Búsqueda y Filtrado en Prueba\n- Búsqueda por nombre de producto (funcionalidad básica)\n- Filtros por categoría (limitados)\n- Ordenamiento simple\n- Historial de búsquedas (en desarrollo)\n- Sugerencias de búsqueda (en prueba)\n\n### 📊 Información del Producto en Prueba\n- Descripciones parciales\n- Especificaciones técnicas limitadas\n- Disponibilidad (información simulada)\n- Precios (datos de prueba)\n- Información de garantía (en desarrollo)\n\n### ⚙️ Configuración en Prueba\n- Configuración básica de vista\n- Selector de moneda (funcionalidad limitada)\n- Notificaciones (en desarrollo)\n- Configuración de unidades (en prueba)\n- Idioma predeterminado\n\n### 📲 Compatibilidad en Prueba\n- Funcional en dispositivos móviles\n- Pruebas en Android 10+\n- Vista adaptativa (en desarrollo)\n- Modo horizontal (limitado)\n- Densidad de pantalla (en prueba)\n\n### 📈 Rendimiento en Prueba\n- Tiempo de carga inicial\n- Consumo de datos (en medición)\n- Caché de imágenes (en desarrollo)\n- Sincronización con servidor (en prueba)\n- Uso de batería (en evaluación)\n\n### 🌐 Idioma en Prueba\n- Soporte básico para español\n- Traducciones parciales\n- Formato de precios (en desarrollo)\n- Adaptación regional (en prueba)",
-  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.1-android-dev-6d4bd90/Rodolfo-PC-Android-v0.0.1-dev-6d4bd90.apk",
+  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.1-android-dev-5c8f92c/Rodolfo-PC-Android-v0.0.1-dev-5c8f92c.apk",
   "all_releases_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases",
   "date": "2026-02-21",
   "required": false,

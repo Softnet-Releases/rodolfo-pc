@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "build_code": "7656686",
+  "full_version": "v0.0.1-android",
+  "environment": "pro",
+  "changelog": "\n### 🚀 Lanzamiento Oficial\n- Primera versión estable para producción.\n- Publicación inicial del catálogo móvil con flujo completo de consulta.\n- Base preparada para actualizaciones continuas desde pipeline CI/CD.\n\n### 🛍️ Experiencia de Catálogo\n- Navegación más clara entre secciones de juegos, multimedia y servicios.\n- Mejor visualización de fichas con información relevante para decidir más rápido.\n- Flujo de consulta optimizado para encontrar contenido con menos pasos.\n\n### 📸 Contenido Visual\n- Mejor consistencia en la carga de imágenes del catálogo.\n- Visualización más estable en listados y pantallas de detalle.\n- Presentación más limpia para destacar títulos y portadas.\n\n### ⚡ Estabilidad para el Usuario\n- Mejoras generales de rendimiento durante la navegación.\n- Ajustes para reducir interrupciones al consultar contenido.\n- Correcciones menores para una experiencia más fluida.",
+  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.1-android/Rodolfo-PC-Android-v0.0.1.apk",
+  "all_releases_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases",
+  "date": "2026-03-03",
+  "required": false,
+  "min_version": "0.0.1"
+}

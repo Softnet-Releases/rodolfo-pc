@@ -1,12 +1,12 @@
 {
-  "version": "0.0.1",
-  "build_code": "7656686",
-  "full_version": "v0.0.1-android-dev-7656686",
+  "version": "0.0.2",
+  "build_code": "d5282aa",
+  "full_version": "v0.0.2-android-dev-d5282aa",
   "environment": "dev",
-  "changelog": "\n### 📱 Características en Prueba\n- Catálogo de productos de computación (versión beta)\n- Búsqueda básica por categorías\n- Vista de precios en CUP (funcionalidad completa)\n- Galería de imágenes (funcionalidad limitada)\n- Especificaciones técnicas básicas\n- Listado de precios disponible offline\n\n### 🛍️ Funcionalidades de Catálogo en Prueba\n- Categorías básicas de productos\n- Filtros simples por precio\n- Vista de producto con información limitada\n- Comparación de productos (en desarrollo)\n- Lista de favoritos (funcionalidad básica)\n- Visualización de categorías de servicios\n- Visualización de servicios con precios\n\n### 📸 Galería de Productos en Prueba\n- Visualización básica de imágenes\n- Navegación simple entre imágenes\n- Zoom básico (funcionalidad limitada)\n- Carga de imágenes en desarrollo\n- Vista de galería reducida\n\n### 🔍 Búsqueda y Filtrado en Prueba\n- Búsqueda por nombre de producto (funcionalidad básica)\n- Filtros por categoría (limitados)\n- Ordenamiento simple\n- Historial de búsquedas (en desarrollo)\n- Sugerencias de búsqueda (en prueba)\n\n### 📊 Información del Producto en Prueba\n- Descripciones parciales\n- Especificaciones técnicas limitadas\n- Disponibilidad (información simulada)\n- Precios (ahora disponible offline)\n- Información de garantía (en desarrollo)\n- Datos de categorías de servicios\n- Datos de servicios con precios\n\n### ⚙️ Configuración en Prueba\n- Configuración básica de vista\n- Selector de moneda (funcionalidad limitada)\n- Notificaciones (en desarrollo)\n- Configuración de unidades (en prueba)\n- Idioma predeterminado\n\n### 📲 Compatibilidad en Prueba\n- Funcional en dispositivos móviles\n- Pruebas en Android 10+\n- Vista adaptativa (en desarrollo)\n- Modo horizontal (limitado)\n- Densidad de pantalla (en prueba)\n\n### 📈 Rendimiento en Prueba\n- Tiempo de carga inicial\n- Consumo de datos (en medición)\n- Caché de imágenes (en desarrollo)\n- Sincronización con servidor (en prueba)\n- Uso de batería (en evaluación)\n- Carga de datos offline optimizada\n- Almacenamiento eficiente de precios\n\n### 🌐 Idioma en Prueba\n- Soporte básico para español\n- Traducciones parciales\n- Formato de precios (en desarrollo)\n- Adaptación regional (en prueba)",
-  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.1-android-dev-7656686/Rodolfo-PC-Android-v0.0.1-dev-7656686.apk",
+  "changelog": "\n### 🐛 Corrección en Prueba: Barra Inferior\n- Se corrigió un fallo donde la barra inferior (Juegos/Multimedia) podía no verse en algunos modelos Android.\n- Se añadió manejo de área segura para respetar insets del sistema en navegación por gestos o botones virtuales.\n- Se mejoró la estabilidad visual de la navegación inferior en distintas resoluciones y densidades de pantalla.\n\n### 📲 Compatibilidad en Prueba\n- Ajustes de layout para evitar solapamiento con la barra del sistema en pantallas con diferentes proporciones.\n- Validación técnica para escenarios de dispositivos con barra de navegación inferior variable.",
+  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.2-android-dev-d5282aa/Rodolfo-PC-Android-v0.0.2-dev-d5282aa.apk",
   "all_releases_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases",
-  "date": "2026-03-03",
+  "date": "2026-03-14",
   "required": false,
   "min_version": "0.0.1"
 }

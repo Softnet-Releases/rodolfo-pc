@@ -1,12 +1,12 @@
 {
-  "version": "0.0.1",
-  "build_code": "7656686",
-  "full_version": "v0.0.1-android",
+  "version": "0.0.2",
+  "build_code": "16049b6",
+  "full_version": "v0.0.2-android",
   "environment": "pro",
-  "changelog": "\n### 🚀 Lanzamiento Oficial\n- Primera versión estable para producción.\n- Publicación inicial del catálogo móvil con flujo completo de consulta.\n- Base preparada para actualizaciones continuas desde pipeline CI/CD.\n\n### 🛍️ Experiencia de Catálogo\n- Navegación más clara entre secciones de juegos, multimedia y servicios.\n- Mejor visualización de fichas con información relevante para decidir más rápido.\n- Flujo de consulta optimizado para encontrar contenido con menos pasos.\n\n### 📸 Contenido Visual\n- Mejor consistencia en la carga de imágenes del catálogo.\n- Visualización más estable en listados y pantallas de detalle.\n- Presentación más limpia para destacar títulos y portadas.\n\n### ⚡ Estabilidad para el Usuario\n- Mejoras generales de rendimiento durante la navegación.\n- Ajustes para reducir interrupciones al consultar contenido.\n- Correcciones menores para una experiencia más fluida.",
-  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.1-android/Rodolfo-PC-Android-v0.0.1.apk",
+  "changelog": "\n### 🐛 Corrección de Navegación Inferior\n- Se corrigió un problema donde la barra inferior (Juegos/Multimedia) podía no mostrarse en algunos teléfonos Android.\n- Se añadió protección de área segura para respetar los insets del sistema (gestos y barra de navegación).\n- Se ajustó el layout de la navegación inferior para mejorar consistencia en diferentes tamaños y densidades de pantalla.\n\n### ⚙️ Ajustes Técnicos\n- Mejora de compatibilidad en dispositivos con navegación por gestos y botones virtuales.\n- Correcciones menores de código para mantener el módulo limpio y sin advertencias en análisis estático.",
+  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.2-android/Rodolfo-PC-Android-v0.0.2.apk",
   "all_releases_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases",
-  "date": "2026-03-03",
+  "date": "2026-03-14",
   "required": false,
   "min_version": "0.0.1"
 }

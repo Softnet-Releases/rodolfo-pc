@@ -1,12 +1,12 @@
 {
-  "version": "0.0.2",
-  "build_code": "16049b6",
-  "full_version": "v0.0.2-android",
+  "version": "0.0.3",
+  "build_code": "13de781",
+  "full_version": "v0.0.3-android",
   "environment": "pro",
-  "changelog": "\n### 🐛 Corrección de Navegación Inferior\n- Se corrigió un problema donde la barra inferior (Juegos/Multimedia) podía no mostrarse en algunos teléfonos Android.\n- Se añadió protección de área segura para respetar los insets del sistema (gestos y barra de navegación).\n- Se ajustó el layout de la navegación inferior para mejorar consistencia en diferentes tamaños y densidades de pantalla.\n\n### ⚙️ Ajustes Técnicos\n- Mejora de compatibilidad en dispositivos con navegación por gestos y botones virtuales.\n- Correcciones menores de código para mantener el módulo limpio y sin advertencias en análisis estático.",
-  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.2-android/Rodolfo-PC-Android-v0.0.2.apk",
+  "changelog": "\n### 🔄 Mejoras en Sistema de Actualizaciones\n- La app ahora verifica disponibilidad de nueva versión en cada inicio, sin esperar ventanas de tiempo.\n- Se eliminó la restricción de verificación automática por intervalo para que el aviso llegue inmediatamente al publicarse una versión.\n\n### 🐛 Corrección de Navegación Inferior\n- Se corrigió un problema donde la barra inferior (Juegos/Multimedia) podía no mostrarse en algunos teléfonos Android.\n- Se añadió protección de área segura para respetar los insets del sistema (gestos y barra de navegación).\n- Se ajustó el layout de la navegación inferior para mejorar consistencia en diferentes tamaños y densidades de pantalla.\n\n### ⚙️ Ajustes Técnicos\n- Mejora de compatibilidad en dispositivos con navegación por gestos y botones virtuales.\n- Corre",
+  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.3-android/Rodolfo-PC-Android-v0.0.3.apk",
   "all_releases_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases",
-  "date": "2026-03-14",
+  "date": "2026-03-15",
   "required": false,
   "min_version": "0.0.1"
 }

@@ -8,5 +8,8 @@
   "all_releases_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases",
   "date": "2026-03-15",
   "required": false,
-  "min_version": "0.0.1"
+  "min_version": "0.0.1",
+  "discontinued": false,
+  "discontinued_message": "Rodolfo PC ha cerrado sus puertas. Gracias por acompañarnos.",
+  "discontinued_url": ""
 }

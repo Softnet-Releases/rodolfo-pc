@@ -9,7 +9,7 @@
   "date": "2026-03-14",
   "required": false,
   "min_version": "0.0.1",
-  "discontinued": true,
+  "discontinued": false,
   "discontinued_message": "Rodolfo PC ha cerrado sus puertas. Gracias por acompañarnos.",
   "discontinued_url": "https://rodolfo-pc.cu"
 }

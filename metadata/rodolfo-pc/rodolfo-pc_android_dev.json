@@ -1,15 +1,12 @@
 {
-  "version": "0.0.2",
-  "build_code": "d5282aa",
-  "full_version": "v0.0.2-android-dev-d5282aa",
+  "version": "0.0.7",
+  "build_code": "6771c70",
+  "full_version": "v0.0.7-android-dev-6771c70",
   "environment": "dev",
   "changelog": "\n### 🐛 Corrección en Prueba: Barra Inferior\n- Se corrigió un fallo donde la barra inferior (Juegos/Multimedia) podía no verse en algunos modelos Android.\n- Se añadió manejo de área segura para respetar insets del sistema en navegación por gestos o botones virtuales.\n- Se mejoró la estabilidad visual de la navegación inferior en distintas resoluciones y densidades de pantalla.\n\n### 📲 Compatibilidad en Prueba\n- Ajustes de layout para evitar solapamiento con la barra del sistema en pantallas con diferentes proporciones.\n- Validación técnica para escenarios de dispositivos con barra de navegación inferior variable.",
-  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.2-android-dev-d5282aa/Rodolfo-PC-Android-v0.0.2-dev-d5282aa.apk",
+  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.7-android-dev-6771c70/Rodolfo-PC-Android-v0.0.7-dev-6771c70.apk",
   "all_releases_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases",
-  "date": "2026-03-14",
+  "date": "2026-03-18",
   "required": false,
-  "min_version": "0.0.1",
-  "discontinued": false,
-  "discontinued_message": "Rodolfo PC ha cerrado sus puertas. Gracias por acompañarnos.",
-  "discontinued_url": "https://rodolfo-pc.cu"
+  "min_version": "0.0.1"
 }

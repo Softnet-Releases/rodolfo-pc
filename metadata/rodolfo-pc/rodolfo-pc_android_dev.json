@@ -1,10 +1,10 @@
 {
   "version": "0.0.7",
-  "build_code": "8da375a",
-  "full_version": "v0.0.7-android-dev-8da375a",
+  "build_code": "2cb38cf",
+  "full_version": "v0.0.7-android-dev-2cb38cf",
   "environment": "dev",
   "changelog": "\n### 🐛 Corrección en Prueba: Barra Inferior\n- Se corrigió un fallo donde la barra inferior (Juegos/Multimedia) podía no verse en algunos modelos Android.\n- Se añadió manejo de área segura para respetar insets del sistema en navegación por gestos o botones virtuales.\n- Se mejoró la estabilidad visual de la navegación inferior en distintas resoluciones y densidades de pantalla.\n\n### 📲 Compatibilidad en Prueba\n- Ajustes de layout para evitar solapamiento con la barra del sistema en pantallas con diferentes proporciones.\n- Validación técnica para escenarios de dispositivos con barra de navegación inferior variable.",
-  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.7-android-dev-8da375a/Rodolfo-PC-Android-v0.0.7-dev-8da375a.apk",
+  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.7-android-dev-2cb38cf/Rodolfo-PC-Android-v0.0.7-dev-2cb38cf.apk",
   "all_releases_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases",
   "date": "2026-03-25",
   "required": false,

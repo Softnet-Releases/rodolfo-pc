@@ -1,12 +1,12 @@
 {
-  "version": "0.0.6",
-  "build_code": "e8f6ec8",
-  "full_version": "v0.0.6-android",
+  "version": "0.0.7",
+  "build_code": "eff129f",
+  "full_version": "v0.0.7-android",
   "environment": "pro",
-  "changelog": "\n### 🔄 Actualización de Base de Datos Offline\n- Nuevo servicio de verificación de actualizaciones de la base de datos offline.\n- La app ahora comprueba automáticamente si hay una versión más reciente de la BD al iniciar.\n- Marcador \"NEW\" en el menú cuando hay una actualización de BD disponible.\n- Caché del estado de actualización para respuesta instantánea sin bloquear la UI.\n- Verificación silenciosa en segundo plano que compara hash, versión y fecha de generación.\n\n### ⬇️ Cancelación de Descargas e Importación\n- Botón \"Cancelar\" durante la descarga de actualizaciones de BD.\n- Posibilidad de detener la importación de base de datos en curso.\n- Notificaciones de advertencia al cancelar operaciones.\n- Mejora en el manejo de estados para evitar errores tras cancelaciones.\n- Control preciso del progreso de descarga e importación.\n\n### 📊 Barra de Progreso Multifase\n- Nueva interfaz de progreso con fases diferenciadas: Descarga, Importación y Verificación.\n- Anillos de progreso con estados visuales claramente identificados.\n- Información precisa de bytes descargados e importados en tiempo real.\n- Animaciones fluidas durante todo el proceso de actualización de BD.\n- Overlay de progreso que se adapta a múltiples fases de operación.\n\n### 🔧 Mejoras Técnicas\n- ValueNotifier optimizado para actualización de interfaz en múltiples fases.\n- Corrección de opacidades con función `withValues` para consistencia visual.\n- Actualización de permisos bash para comandos flutter pub, grep y analyze.\n- Manejo mejorado de excepciones específicas durante cancelaciones.\n- Integración de limpieza de estado de actualización tras importar BD manualmente.",
-  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.6-android/Rodolfo-PC-Android-v0.0.6.apk",
+  "changelog": "\n### 🔄 Base de Datos Offline\n\n- La app ahora avisa automáticamente cuando hay una versión más reciente de la base de datos disponible.\n- Aparece un indicador \"NEW\" en el menú cuando hay una actualización de la base de datos lista para descargar.\n- La verificación ocurre al abrir la app sin que notes ninguna demora.\n\n### 🌐 Descarga de Base de Datos desde el Servidor\n\n- Nuevo botón **\"Verificar BD en Servidor\"** que comprueba si hay una base de datos más actualizada disponible y te muestra la información antes de descargar.\n- Nuevo botón **\"Descargar e Importar\"** para obtener la base de datos directamente desde el servidor con un solo toque, sin necesidad de buscar el archivo manualmente.\n- Tras la descarga, la app instala y verifica la base de datos de forma automática.\n\n### ✅ Correcciones y Mejoras\n\n- El indicador \"NEW\" en el menú de Base de Datos ahora solo aparece cuando ya tienes una base de datos instalada y hay una versión más nueva disponible. Antes podía aparecer incluso sin tener ninguna base de datos.\n- Al importar la base de datos desde el servidor y tocar \"Continuar\", la pantalla ahora muestra únicamente la información de la base de datos recién instalada, sin mostrar datos adicionales del servidor.\n\n---",
+  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.7-android/Rodolfo-PC-Android-v0.0.7.apk",
   "all_releases_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases",
-  "date": "2026-03-17",
+  "date": "2026-03-26",
   "required": false,
   "min_version": "0.0.1"
 }

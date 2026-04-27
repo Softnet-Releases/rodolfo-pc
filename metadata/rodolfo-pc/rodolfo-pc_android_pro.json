@@ -8,5 +8,5 @@
   "all_releases_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases",
   "date": "2026-03-27",
   "required": false,
-  "min_version": "0.0.1"
+  "min_version": "0.0.12"
 }

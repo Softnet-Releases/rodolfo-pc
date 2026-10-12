@@ -1,13 +1,13 @@
 {
-  "version": "0.0.12",
-  "version_code": 12,
+  "version": "0.0.13",
+  "version_code": 13,
   "build_code": "31bde2e",
-  "full_version": "v0.0.12-android-dev-31bde2e",
+  "full_version": "v0.0.13-android-dev-31bde2e",
   "environment": "dev",
   "changelog": "\n### 🔐 Onboarding de permisos (`views/onboarding/permissions_screen.dart`)\n- Nueva `PermissionsOnboardingScreen` en el primer inicio: pide notificaciones, SMS e instalación de paquetes en un solo flujo. El estado se guarda en `SharedPreferences` para mostrarla una sola vez.\n- `splash_screen.dart` navega a onboarding o a home según ese estado.\n- `AndroidManifest.xml`: añadido `POST_NOTIFICATIONS` (Android 13+).\n- `NotificationService` ya no pide el permiso en `initialize()`; lo hace el onboarding.\n\n### 🚀 Splash nativo (`flutter_native_splash`)\n- Splash nativo con fondo `#0F1535` y `assets/images/logo.png`, también en Android 12+ (`values-v31` / `values-night-v31`, `android12splash.png`). Elimina el destello del splash por defecto antes del primer frame de Flutter.\n- Reescritura de `splash_screen.dart` y ajustes en `home_screen.dart` y `game_list_screen.dart`.\n- `main.dart`: Firebase y `NotificationService` solo se inicializan si `!kIsWeb` (en web no hay `FirebaseOptions` y crasheaba con \"FirebaseOptions cannot be null\").\n\n### 🔔 Fiabilidad de notificaciones FCM (`services/notification_service.dart`)\n- Revalida la suscripción a los tópicos del `APP_CHANNEL` al reanudar la app y escucha `onTokenRefresh` para volver a suscribirse con el token nuevo.\n- Canal Android por defecto `rodolfo_pc_main` con prioridad alta (`AndroidManifest.xml` + `strings.xml`).\n\n### 🎄 Temporada navideña (`services/season_service.dart`, `widgets/christmas/`)\n- `SeasonService` consulta `GET /temporada/` y decide localmente si está activa comparando la fecha del teléfono con `inicio`/`fin`; la config queda cacheada en `SharedPreferences` (funciona offline). Un fallo de red es silencioso.\n- `ChristmasOverlay` (en `MaterialApp.builder`): nieve, trineo (`sleigh_painter.dart`) y saludo único por temporada.\n- `ChristmasLights` colgada de `animated_search_app_bar.dart`.\n- Tests: `test/season_service_test.dart`.\n\n### 🖼️ Fix: póster recortado en multimedia\n- `multimedia_card.dart`: `Expanded` → `AspectRatio(255 / 365)`, igual que `GameCard`. Con `Expanded` + `BoxFit.cover` se recortaba la parte inferior de la portada.\n- `multimedia_grid_page.dart`: `childAspectRatio` 0.7 → 0.62 (mismo valor que la rejilla de juegos).\n\n### ⚙️ Configuración\n- `app_config.dart`: nuevo `--dart-define=USE_PROD_OFFLINE=true` para usar stats/BD offline de producción con la API local.",
-  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.12-android-dev-31bde2e/Rodolfo-PC-Android-v0.0.12-dev-31bde2e.apk",
+  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.13-android-dev-31bde2e/Rodolfo-PC-Android-v0.0.13-dev-31bde2e.apk",
   "all_releases_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases",
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "required": false,
   "min_version": "0.0.1"
 }

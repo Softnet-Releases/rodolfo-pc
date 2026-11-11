@@ -1,12 +1,13 @@
 {
-  "version": "0.0.18",
-  "build_code": "4fa29de",
-  "full_version": "v0.0.18-android",
+  "version": "0.0.19",
+  "version_code": 19,
+  "build_code": "90fecf2",
+  "full_version": "v0.0.19-android",
   "environment": "pro",
-  "changelog": "\n### ⚠️ Debes reinstalar la app manualmente\n\nTu versión es muy antigua y **no puede actualizarse sola**. Por eso al intentar actualizar se cerraba la app.\n\n**Sigue estos 3 pasos:**\n\n**1.** Abre tu navegador y entra a:\n\n**github.com/Softnet-Releases/rodolfo-pc/releases**\n\n**2.** Descarga el archivo:\n\n**Rodolfo-PC-Android-v0.0.18.apk**\n\n**3.** Ábrelo desde tu carpeta de **Descargas** e instálalo (acepta \"instalar de fuentes desconocidas\" si te lo pide).\n\n> 💡 Si ya descargaste el APK, toca el botón **\"Ya la descargué / Reintentar instalación\"** que aparece debajo.",
-  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.18-android/Rodolfo-PC-Android-v0.0.18.apk",
+  "changelog": "\n### ✨ Novedades\n\n- Al abrir la app por primera vez, una pantalla te explica y te pide de una sola vez los permisos que necesita: notificaciones, envío de pedidos por SMS e instalación de actualizaciones.\n- La pantalla de inicio se muestra con el fondo y el logo de la app desde el primer instante, sin parpadeos al abrirla.\n- 🎄 En temporada navideña la app se decora con nieve, luces en la barra superior y el trineo de Papá Noel. Funciona también sin conexión.\n\n### 🔔 Notificaciones\n\n- Las notificaciones de juegos, películas y actualizaciones llegan de forma más fiable: la app revisa su suscripción cada vez que la abres o vuelves a ella.\n- Las notificaciones ahora llegan con prioridad alta, para que no se retrasen con el teléfono en reposo.\n\n### ✅ Correcciones y Mejoras\n\n- Los pósters de películas y series se ven completos en el catálogo; antes se recortaba la parte de abajo de la portada.",
+  "release_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases/download/v0.0.19-android/Rodolfo-PC-Android-v0.0.19.apk",
   "all_releases_url": "https://github.com/Softnet-Releases/rodolfo-pc/releases",
-  "date": "2026-06-06",
+  "date": "2026-11-11",
   "required": false,
   "min_version": "0.0.1"
 }
